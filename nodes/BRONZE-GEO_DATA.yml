@@ -1,0 +1,154 @@
+steps:
+  GEO_DATA-93230640-c133-403e-82f9-618439346477:
+    operation:
+      database: ""
+      dataset: ""
+      deployEnabled: true
+      description: ""
+      locationID: ""
+      locationName: BRONZE
+      metadata:
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: c6181508-6ebf-469d-bc60-9d6b90f2bcfa
+              stepCounter: 93230640-c133-403e-82f9-618439346477
+            config: {}
+            dataType: VARCHAR(16777216)
+            defaultValue: ""
+            description: ""
+            name: FUNC_LOC
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 3cb399b0-3dfd-4bb5-accf-b33fd5d42777
+              stepCounter: 93230640-c133-403e-82f9-618439346477
+            config: {}
+            dataType: VARCHAR(16777216)
+            defaultValue: ""
+            description: ""
+            name: DESCRIPTION
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 42cecd87-9609-4d92-8741-f2c349623114
+              stepCounter: 93230640-c133-403e-82f9-618439346477
+            config: {}
+            dataType: VARCHAR(16777216)
+            defaultValue: ""
+            description: ""
+            name: STREET
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 7c27eede-b635-4df6-ad35-03c2dbdfa30c
+              stepCounter: 93230640-c133-403e-82f9-618439346477
+            config: {}
+            dataType: VARCHAR(16777216)
+            defaultValue: ""
+            description: ""
+            name: ADDR_TYPE
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 940eb967-2f41-4f92-b568-2011c70498b8
+              stepCounter: 93230640-c133-403e-82f9-618439346477
+            config: {}
+            dataType: VARCHAR(16777216)
+            defaultValue: ""
+            description: ""
+            name: ADDRESS
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: cb014960-811e-471e-94e5-d33ed6703859
+              stepCounter: 93230640-c133-403e-82f9-618439346477
+            config: {}
+            dataType: VARCHAR(16777216)
+            defaultValue: ""
+            description: ""
+            name: PROP_NUM
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: f6052029-a388-46e0-b09e-bd3bccef3f58
+              stepCounter: 93230640-c133-403e-82f9-618439346477
+            config: {}
+            dataType: VARCHAR(16777216)
+            defaultValue: ""
+            description: ""
+            name: LEGAL_TYPE
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 95f2132d-82bc-406e-b788-f976175df79b
+              stepCounter: 93230640-c133-403e-82f9-618439346477
+            config: {}
+            dataType: VARCHAR(16777216)
+            defaultValue: ""
+            description: ""
+            name: BLDGTYPE
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: ddba8362-36e0-4335-a234-006db1602f68
+              stepCounter: 93230640-c133-403e-82f9-618439346477
+            config: {}
+            dataType: GEOGRAPHY
+            defaultValue: ""
+            description: ""
+            name: GEOMETRY
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+        join:
+          joinCondition: FROM {{ ref('BRONZE', 'GEO_DATA') }}
+      name: GEO_DATA
+      schema: ""
+      sqlType: Source
+      table: GEO_DATA
+      type: sourceInput
+    stepCounter: 93230640-c133-403e-82f9-618439346477
